@@ -1,0 +1,25 @@
+.container {
+  width:600px;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+
+
+.button {
+  border-radius: 2px;
+  box-shadow: 2px 3px 19px #666666;
+  background: #3498db;
+  width: 250px;
+  height: 120px;
+  border: solid #0d7bbf 2px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  text-shadow: 1px 3px 5px #172727;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  text-shadow: 1px 2px 2px #172727;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
